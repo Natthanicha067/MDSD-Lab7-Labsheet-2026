@@ -494,8 +494,9 @@ flutter run
 
 > ✅ **Checkpoint 1.1** ถ่ายภาพหน้าจอ Google AI Studio ที่แสดงรูปภาพที่แนบ Prompt ที่ใช้ และผลลัพธ์ JSON ที่ได้ จากนั้นทดลองรันซ้ำอีก 2 ครั้งด้วยภาพและ Prompt เดิม
 
-```text
-บันทึกรูปผลลัพธ์ที่นี่
+<img width="1792" height="1021" alt="image" src="https://github.com/user-attachments/assets/bc37806b-d9ae-490f-a2c7-fb949da19100" />
+<img width="1791" height="1015" alt="image" src="https://github.com/user-attachments/assets/512b5b1f-56dc-4c91-a7ac-26a37e785c6c" />
+
 ```
 
 ### ขั้นตอนที่ 1.2: ทดลองเปิดใช้ Structured Output ใน AI Studio
@@ -504,8 +505,10 @@ flutter run
 
 > ✅ **Checkpoint 1.2** ถ่ายภาพหน้าจอที่แสดงการตั้งค่า Structured Output และผลลัพธ์ที่ได้ อธิบายว่าผลลัพธ์ที่ได้ต่างจากตอนไม่เปิด Structured Output ในขั้นตอน 1.1 อย่างไร (อ้างอิงบทหนังสือเรียนหัวข้อ 7.4)
 
-```text
-บันทึกผลลัพธ์ที่นี่
+```
+<img width="1790" height="1024" alt="image" src="https://github.com/user-attachments/assets/d9b5f633-af0c-43c2-9e7a-840b80f62bcd" />
+```Text
+เมื่อเปิดใช้ Structured Output ผลลัพธ์ที่ได้จะถูกกำหนดตาม Schema ที่สร้างไว้ โดยมีฟิลด์ title, category และ description เป็นชนิด String ทำให้รูปแบบข้อมูลมีความชัดเจนและสม่ำเสมอมากขึ้น และสามารถนำผลลัพธ์ไปใช้งานต่อในโปรแกรมได้ง่ายกว่าการกำหนดรูปแบบด้วย Prompt เพียงอย่างเดียว
 ```
 
 ---
